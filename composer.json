@@ -1,0 +1,23 @@
+{
+    "name": "arzeroid/laravel-aws-cache-adapter",
+    "description": "Laravel cache adapter for AWS credentials in case of assuming IAM roles.",
+    "keywords": ["laravel", "aws", "cache", "credential", "iam"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Puthipong Sthitpattanapongsa",
+            "email": "puthi.sthit@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "aws/aws-sdk-php": "^3.20"
+    },
+    "autoload": {
+        "psr-4": {
+            "Arzeroid\\LaravelAdapters\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
